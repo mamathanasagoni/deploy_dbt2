@@ -24,7 +24,9 @@ deploy_dbt_course:
       # User/password auth
       user: admin
       password: Logicpursuits@123
-
+      
+      schema: development
+      
       role: ACCOUNTADMIN
       database: ANALYTICS
       warehouse: TRANSFORMING
