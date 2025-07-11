@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      SNOWFLAKE_ACCOUNT_ID: ${{ secrets.SNOWFLAKE_ACCOUNT_ID }}
-      SNOWFLAKE_USERNAME: ${{ secrets.SNOWFLAKE_USERNAME }}
-      SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
-      SNOWFLAKE_ROLE: ${{ secrets.SNOWFLAKE_ROLE }}
-      SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
-      SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+      SNOWFLAKE_ACCOUNT_ID: dm09207.ap-southeast-1
+      SNOWFLAKE_USERNAME: admin
+      SNOWFLAKE_PASSWORD: Logicpursuits@123
+      SNOWFLAKE_ROLE: ACCOUNTADMIN
+      SNOWFLAKE_DATABASE: ANALYTICS
+      SNOWFLAKE_WAREHOUSE: TRANSFORMING
 
     steps:
     - name: Checkout repo
