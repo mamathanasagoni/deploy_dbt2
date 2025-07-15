@@ -24,7 +24,11 @@ deploy_dbt_course:
       # User/password auth
       user: admin
       password: Logicpursuits@123
-
+      
       role: ACCOUNTADMIN
       database: ANALYTICS
       warehouse: TRANSFORMING
+      schema: prod_schema
+
+      threads: 4
+      client_session_keep_alive: False
